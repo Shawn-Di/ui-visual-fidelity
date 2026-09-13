@@ -1,0 +1,6 @@
+interface:
+  display_name: "高保真 UI 修正"
+  short_description: "在不改变既有设计与交互的前提下修正、验证并整理 UI"
+  default_prompt: "使用 $ui-visual-fidelity 按既有视觉基准修正这个界面。"
+policy:
+  allow_implicit_invocation: true

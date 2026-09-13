@@ -1,13 +1,13 @@
 ---
 name: ui-visual-fidelity
-description: Use when modifying, restoring, refactoring, or reviewing an existing web UI where visual fidelity, CSS cascade, dark/light themes, screenshots, or strict scope preservation matter.
+description: Use when repairing or refactoring an AI-generated web UI whose CSS is messy, unreadable, duplicated, or visually inconsistent, especially when the existing layout and interactions must not change.
 ---
 
 # UI Visual Fidelity
 
 ## 核心原则
 
-已被用户接受的界面就是视觉契约。先确定基准，再修正最小的根因，最后同时证明交互正确和视觉一致。自动测试通过不等于设计已经还原。
+AI 生成的网页经常能运行，却留下混乱、难读、重复且难维护的 UI 代码。已被用户接受的界面就是视觉契约：先确定基准，再修正最小的根因，最后同时证明交互正确和视觉一致。自动测试通过不等于设计已经还原。
 
 ## 工作流程
 
